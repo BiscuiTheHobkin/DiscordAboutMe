@@ -1,10 +1,30 @@
 /* Reset default margin and padding */
+body{ 
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction:column; 
+  margin: auto;
+  
+  background-image: url("Background.jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-repeat: no-repeat;
+  margin:auto;
+  padding:0;
+
+
+
+  color: #00fff2;
+  font-size: 20px;
+  font-family: 'Titan One', monospace;
+  letter-spacing: 1px;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000;
-    color: #eb0404;
+    background-color: #00000000;
+    color: #ffffff;
   }
   
   body {
@@ -13,8 +33,8 @@
   }
   
   header {
-    background-color: #000000;
-    color: #f50000;
+    background-color: #00000000;
+    color: #ffffff;
     text-align: center;
     padding: 1rem 0;
   }
@@ -30,7 +50,7 @@
   }
   
   nav ul li a {
-    color: #eb0404;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -51,8 +71,8 @@
   }
   
   footer {
-    background-color: #000000;
-    color: #fff;
+    background-color: #00000000;
+    color: #ff0000;
     text-align: center;
     padding: 1rem 0;
   }
