@@ -6,7 +6,7 @@ body{
   flex-direction:column; 
   margin: auto;
   
-  background-image: url("Background.jpg");
+  background-image: url("Resources/Background.jpg");
   background-size: cover; /* or contain depending on what you want */
   background-repeat: no-repeat;
   margin:auto;
